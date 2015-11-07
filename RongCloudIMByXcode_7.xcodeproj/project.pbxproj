@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		615F75791BEE54C200B00A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F75781BEE54C200B00A7E /* AppDelegate.swift */; };
+		615F757B1BEE54C200B00A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F757A1BEE54C200B00A7E /* ViewController.swift */; };
+		615F757E1BEE54C200B00A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615F757C1BEE54C200B00A7E /* Main.storyboard */; };
+		615F75801BEE54C200B00A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615F757F1BEE54C200B00A7E /* Assets.xcassets */; };
+		615F75831BEE54C200B00A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615F75811BEE54C200B00A7E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		615F75751BEE54C200B00A7E /* RongCloudIMByXcode_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudIMByXcode_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615F75781BEE54C200B00A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		615F757A1BEE54C200B00A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		615F757D1BEE54C200B00A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615F757F1BEE54C200B00A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615F75821BEE54C200B00A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615F75841BEE54C200B00A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615F75721BEE54C200B00A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615F756C1BEE54C200B00A7E = {
+			isa = PBXGroup;
+			children = (
+				615F75771BEE54C200B00A7E /* RongCloudIMByXcode_7 */,
+				615F75761BEE54C200B00A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		615F75761BEE54C200B00A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615F75751BEE54C200B00A7E /* RongCloudIMByXcode_7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615F75771BEE54C200B00A7E /* RongCloudIMByXcode_7 */ = {
+			isa = PBXGroup;
+			children = (
+				615F75781BEE54C200B00A7E /* AppDelegate.swift */,
+				615F757A1BEE54C200B00A7E /* ViewController.swift */,
+				615F757C1BEE54C200B00A7E /* Main.storyboard */,
+				615F757F1BEE54C200B00A7E /* Assets.xcassets */,
+				615F75811BEE54C200B00A7E /* LaunchScreen.storyboard */,
+				615F75841BEE54C200B00A7E /* Info.plist */,
+			);
+			path = RongCloudIMByXcode_7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615F75741BEE54C200B00A7E /* RongCloudIMByXcode_7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615F75871BEE54C200B00A7E /* Build configuration list for PBXNativeTarget "RongCloudIMByXcode_7" */;
+			buildPhases = (
+				615F75711BEE54C200B00A7E /* Sources */,
+				615F75721BEE54C200B00A7E /* Frameworks */,
+				615F75731BEE54C200B00A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudIMByXcode_7;
+			productName = RongCloudIMByXcode_7;
+			productReference = 615F75751BEE54C200B00A7E /* RongCloudIMByXcode_7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615F756D1BEE54C200B00A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mjt;
+				TargetAttributes = {
+					615F75741BEE54C200B00A7E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 615F75701BEE54C200B00A7E /* Build configuration list for PBXProject "RongCloudIMByXcode_7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615F756C1BEE54C200B00A7E;
+			productRefGroup = 615F75761BEE54C200B00A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615F75741BEE54C200B00A7E /* RongCloudIMByXcode_7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615F75731BEE54C200B00A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615F75831BEE54C200B00A7E /* LaunchScreen.storyboard in Resources */,
+				615F75801BEE54C200B00A7E /* Assets.xcassets in Resources */,
+				615F757E1BEE54C200B00A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615F75711BEE54C200B00A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615F757B1BEE54C200B00A7E /* ViewController.swift in Sources */,
+				615F75791BEE54C200B00A7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		615F757C1BEE54C200B00A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615F757D1BEE54C200B00A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615F75811BEE54C200B00A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615F75821BEE54C200B00A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615F75851BEE54C200B00A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		615F75861BEE54C200B00A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615F75881BEE54C200B00A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongCloudIMByXcode_7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MJT.RongCloudIMByXcode-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		615F75891BEE54C200B00A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RongCloudIMByXcode_7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MJT.RongCloudIMByXcode-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615F75701BEE54C200B00A7E /* Build configuration list for PBXProject "RongCloudIMByXcode_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615F75851BEE54C200B00A7E /* Debug */,
+				615F75861BEE54C200B00A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615F75871BEE54C200B00A7E /* Build configuration list for PBXNativeTarget "RongCloudIMByXcode_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615F75881BEE54C200B00A7E /* Debug */,
+				615F75891BEE54C200B00A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615F756D1BEE54C200B00A7E /* Project object */;
+}
