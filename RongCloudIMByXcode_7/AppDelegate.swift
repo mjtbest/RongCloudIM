@@ -12,11 +12,35 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    // AppKey
+    let appKey = "vnroth0kr9j5o"
+    // 用token测试链接
+    let token = "08N4O9r7IcKAfuXgVWEOBwZ90rRGIeKyfpX1eZ8GUbQr4TOkMaaXp0Wjh+SK7kedlYb56xwByiPZl904EdMx4A=="
+    // 登录用户信息
+    let uID = "123"
+    let uName = "mjt"
+    let uProtrait = "http://img2.imgtn.bdimg.com/it/u=3359865473,1570945789&fm=21&gp=0.jpg"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        
         return true
+    }
+    
+    func connectServer(completion:() -> Void) {
+        RCIM.sharedRCIM().initWithAppKey(self.appKey)
+        RCIM.sharedRCIM().connectWithToken(self.token, success: { (_) -> Void in
+            RCIMClient.sharedRCIMClient().currentUserInfo = RCUserInfo(userId: self.uID, name: self.uName, portrait: self.uProtrait)
+            // 将页面更新操作放到主线程当中执行
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                completion()
+            })
+            }, error: { (_) -> Void in
+                print("error")
+            }) { () -> Void in
+                print("other error")
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
