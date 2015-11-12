@@ -1,4 +1,5 @@
 pod 'RongCloudIMKit'
 pod 'KxMenu'
 pod 'PopMenu'
+pod 'AJWValidator'
 pod 'JSAnimatedImagesView'

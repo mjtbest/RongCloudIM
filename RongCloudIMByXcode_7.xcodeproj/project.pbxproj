@@ -14,6 +14,7 @@
 		615F75801BEE54C200B00A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615F757F1BEE54C200B00A7E /* Assets.xcassets */; };
 		615F75831BEE54C200B00A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615F75811BEE54C200B00A7E /* LaunchScreen.storyboard */; };
 		615F758E1BEE568900B00A7E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 615F758D1BEE568900B00A7E /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		618A71A81BF3740600EE2F9C /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A71A71BF3740600EE2F9C /* Inputs.swift */; settings = {ASSET_TAGS = (); }; };
 		619AD7021BF2224B00B3655F /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619AD7001BF2224B00B3655F /* login.storyboard */; settings = {ASSET_TAGS = (); }; };
 		619AD7041BF2277F00B3655F /* RegistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AD7031BF2277F00B3655F /* RegistTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		619AD7061BF22FE100B3655F /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AD7051BF22FE100B3655F /* SwiftNotice.swift */; settings = {ASSET_TAGS = (); }; };
@@ -39,6 +40,7 @@
 		615F75841BEE54C200B00A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615F758A1BEE555C00B00A7E /* RongCloudIMByXcode_7-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RongCloudIMByXcode_7-Bridging-Header.h"; sourceTree = "<group>"; };
 		615F758D1BEE568900B00A7E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		618A71A71BF3740600EE2F9C /* Inputs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		619AD7011BF2224B00B3655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/login.storyboard; sourceTree = "<group>"; };
 		619AD7031BF2277F00B3655F /* RegistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistTableViewController.swift; sourceTree = "<group>"; };
 		619AD7051BF22FE100B3655F /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				61B801801BEF3A68000F096B /* Controller */,
 				61B8017F1BEF3A44000F096B /* View */,
 				615F75781BEE54C200B00A7E /* AppDelegate.swift */,
+				618A71A71BF3740600EE2F9C /* Inputs.swift */,
 				619AD7051BF22FE100B3655F /* SwiftNotice.swift */,
 				619AD7071BF2420000B3655F /* UITextBox.swift */,
 				615F757F1BEE54C200B00A7E /* Assets.xcassets */,
@@ -277,6 +280,7 @@
 				61CC41851BEEE480008B0290 /* ConversationListViewController.swift in Sources */,
 				619AD7081BF2420000B3655F /* UITextBox.swift in Sources */,
 				615F75791BEE54C200B00A7E /* AppDelegate.swift in Sources */,
+				618A71A81BF3740600EE2F9C /* Inputs.swift in Sources */,
 				619AD7061BF22FE100B3655F /* SwiftNotice.swift in Sources */,
 				61B801821BEF491A000F096B /* LoginViewController.swift in Sources */,
 				61CC41831BEEE46C008B0290 /* ConversationViewController.swift in Sources */,
