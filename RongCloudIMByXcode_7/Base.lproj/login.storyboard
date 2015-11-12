@@ -81,7 +81,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObN-dU-VZX">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
                                         <animations/>
-                                        <state key="normal" title="用户注册"/>
+                                        <state key="normal" title="用户注册">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
                                             <segue destination="n76-6r-he1" kind="show" id="xvC-NN-c7q"/>
                                         </connections>
@@ -89,7 +91,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQZ-GZ-byZ">
                                         <rect key="frame" x="140" y="0.0" width="60" height="30"/>
                                         <animations/>
-                                        <state key="normal" title="忘记密码"/>
+                                        <state key="normal" title="忘记密码">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
                                             <segue destination="ay0-rv-JGE" kind="show" id="jP3-K0-BNu"/>
                                         </connections>

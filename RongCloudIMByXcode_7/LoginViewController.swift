@@ -30,6 +30,11 @@ class LoginViewController: UIViewController, JSAnimatedImagesViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.wallPaper.dataSource = self
+        // 设置背景的模糊效果
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Light)
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        blurView.frame.size = self.view.frame.size
+        self.wallPaper.addSubview(blurView)
     }
     
     override func didReceiveMemoryWarning() {
@@ -49,7 +54,7 @@ class LoginViewController: UIViewController, JSAnimatedImagesViewDataSource {
     }
     
     func animatedImagesNumberOfImages(animatedImagesView: JSAnimatedImagesView!) -> UInt {
-        return 5
+        return 4
     }
     
     func animatedImagesView(animatedImagesView: JSAnimatedImagesView!, imageAtIndex index: UInt) -> UIImage! {

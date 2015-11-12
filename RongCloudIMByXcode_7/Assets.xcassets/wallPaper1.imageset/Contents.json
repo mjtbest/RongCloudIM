@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "wallPaper1.jpg",
+      "filename" : "wallPaper2.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "wallPaper1-1.jpg",
+      "filename" : "wallPaper2-1.jpg",
       "scale" : "2x"
     },
     {
